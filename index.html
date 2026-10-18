@@ -119,11 +119,9 @@ body {
   margin-top:14px;
 }
 .flag-zm {
-  width:28px; height:18px; border-radius:2px; overflow:hidden;
-  display:grid; grid-template-columns:3fr 1fr 1fr 1fr;
+  width:28px; height:18px; border-radius:2px; overflow:hidden; display:block;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.08);
 }
-.fz-green{background:#198a00;} .fz-red{background:#de2010;}
-.fz-black{background:#000;} .fz-orange{background:#ef7d00;}
 .flag-label { font-size:9px; letter-spacing:2px; color:#888; text-transform:uppercase; }
 
 .header-right {
@@ -286,10 +284,13 @@ body {
         <h1>Joseph Chifuka<br><em>Ngulube</em></h1>
         <div class="title-line">BSc · Microbiologist · AMR Specialist</div>
         <div class="flag-row">
-          <div class="flag-zm">
-            <div class="fz-green"></div><div class="fz-red"></div>
-            <div class="fz-black"></div><div class="fz-orange"></div>
-          </div>
+          <svg class="flag-zm" viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg">
+            <rect width="30" height="20" fill="#198a00"/>
+            <rect x="19" y="7" width="3.67" height="13" fill="#de2010"/>
+            <rect x="22.67" y="7" width="3.67" height="13" fill="#000"/>
+            <rect x="26.33" y="7" width="3.67" height="13" fill="#ef7d00"/>
+            <path d="M18.3 6.8c1.4-2.9 3.3-3.3 4.6-1.1.5-2.6 2.3-3.6 4.4-2.6-.5 1.9.1 3 1.9 3.3-1.6.9-3.1.6-4.3-.9-.9 1.8-2.5 2.3-4 1.2-.7 1.3-1.7 1.4-2.6.1z" fill="#ef7d00"/>
+          </svg>
           <span class="flag-label">Zambia</span>
         </div>
       </div>
