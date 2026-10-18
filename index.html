@@ -149,6 +149,24 @@ body {
   letter-spacing:1px;
   text-align:right;
 }
+.cv-btn {
+  display:flex;
+  align-items:center;
+  gap:6px;
+  padding:7px 14px;
+  border:1px solid #2ecc7a;
+  border-radius:3px;
+  font-size:9px;
+  font-weight:700;
+  letter-spacing:2px;
+  color:#050505;
+  text-transform:uppercase;
+  background:#2ecc7a;
+  text-decoration:none;
+  transition:opacity 0.15s ease;
+}
+.cv-btn:hover { opacity:0.85; }
+.cv-btn svg { width:12px; height:12px; }
 
 /* ===== CONTACT BAR ===== */
 .contact-bar {
@@ -276,6 +294,10 @@ body {
         </div>
       </div>
       <div class="header-right">
+        <a class="cv-btn" href="CV/Joseph_Ngulube_CV_2026.docx" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download CV
+        </a>
         <div class="hpcz-badge">HPCZ Registered · 2011</div>
         <div class="header-stat">4 Peer-Reviewed Publications</div>
         <div class="header-stat">AMR · One Health · Lab QMS</div>
