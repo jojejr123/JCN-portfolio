@@ -15,7 +15,7 @@ I have worked in clinical and public health microbiology since 2011, from rural 
 - **Core areas:** AMR surveillance (WHONET, GLASS, DHIS2), clinical bacteriology and mycology, CLSI susceptibility testing, ISO 15189 quality management, outbreak response, training and mentorship.
 - **Digital tools:** BioID (bacterial and fungal identification aid), a web-based laboratory stock control system, and Power BI / Excel monitoring dashboards.
 - **Education:** Founder of [All Things Microbiology](https://allthingsmicrobiology.com), an open learning platform for microbiology.
-- **Credentials:** BSc Biomedical Sciences (UNZA); HPCZ registered since 2011; Africa CDC AVoHC-SURGE member; 4 peer-reviewed publications.
+- **Credentials:** BSc Biomedical Sciences (UNZA); HPCZ registered since 2011; Africa CDC AVoHC-SURGE member; 4 research publications (3 peer-reviewed journal articles, 1 preprint).
 
 ## CV downloads
 
